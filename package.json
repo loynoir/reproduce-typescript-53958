@@ -1,0 +1,21 @@
+{
+  "name": "reproduce-typescript-53958",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test-reporter spec --experimental-import-meta-resolve test/test-runtime-resolve.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@tsconfig/strictest": "^2.0.1",
+    "@types/node": "^18.15.13",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "file:asset/loynoir-fork-sinclair-typebox-0.28.2.tgz"
+  }
+}
